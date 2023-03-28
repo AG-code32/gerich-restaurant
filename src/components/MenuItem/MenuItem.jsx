@@ -1,7 +1,7 @@
 import React from 'react'
-import './MenuItems.css'
+import './MenuItem.css'
 
-function MenuItems({ title, price, tags }) {
+function MenuItem({ title, price, tags }) {
   return (
     <div className='app__menuitem'>
       <div className='app__menuitem-head'>
@@ -28,4 +28,4 @@ function MenuItems({ title, price, tags }) {
   )
 }
 
-export default MenuItems
+export default MenuItem
