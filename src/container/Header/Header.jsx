@@ -1,7 +1,7 @@
 import React from 'react'
-import SubHeading from '../../components/SubHeading/SubHeading.jsx'
-// import { images } from '../../constants'
-import welcome from '../../assets/welcome.png';
+import { SubHeading } from '../../components'
+import { images } from '../../constants'
+// import welcome from '../../assets/welcome.png';
 import './Header.css'
 
 function Header() {
@@ -14,7 +14,7 @@ function Header() {
         <button type='button' className='custom__button'>Explore Menu</button>
       </div>
       <div className='app__wrapper_img'>
-        <img src={welcome} alt="header img" />
+        <img src={images.welcome} alt="header img" />
       </div>
     </div>
   )
