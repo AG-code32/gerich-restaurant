@@ -1,10 +1,7 @@
 import React from 'react'
 import { images, data } from '../../constants'
 
-import { SubHeading } from '../../components'
-import { MenuItem } from '../../components'
-// import SubHeading from '../../components/SubHeading/SubHeading.jsx'
-// import MenuItem from '../../components/MenuItem/MenuItem.jsx'
+import { SubHeading, MenuItem} from '../../components'
 
 import './SpecialMenu.css'
 
