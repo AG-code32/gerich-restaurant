@@ -36,11 +36,11 @@ function Navbar() {
         <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>
           <MdOutlineRestaurantMenu fontSize={27} className='overlay__close' onClick={() => setToogleMenu(false)} />
           <ul className='app__navbar-smallscreen-links'>
-            <li className='p__opensans'><a href="#home">Home</a></li>
-            <li className='p__opensans'><a href="#about">About</a></li>
-            <li className='p__opensans'><a href="#menu">Menu</a></li>
-            <li className='p__opensans'><a href="#awards">Awards</a></li>
-            <li className='p__opensans'><a href="#contact">Contact</a></li>
+            <li className='p__opensans'><a href="#home" onClick={() => setToogleMenu(false)}>Home</a></li>
+            <li className='p__opensans'><a href="#about" onClick={() => setToogleMenu(false)}>About</a></li>
+            <li className='p__opensans'><a href="#menu" onClick={() => setToogleMenu(false)}>Menu</a></li>
+            <li className='p__opensans'><a href="#awards" onClick={() => setToogleMenu(false)}>Awards</a></li>
+            <li className='p__opensans'><a href="#contact" onClick={() => setToogleMenu(false)}>Contact</a></li>
           </ul>
         </div>
         )}
