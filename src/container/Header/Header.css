@@ -14,3 +14,12 @@
 .app__header-img img {
   width: 80%;
 }
+
+/* --------- MEDIA QUERIES -------- */
+
+@media screen and (max-width: 450px) {
+	.app__header-h1 {
+		font-size: 60px;
+		line-height: 70px;
+	}
+}
