@@ -7,8 +7,15 @@
   align-items: center;
   flex-direction: column;
   background: var(--color-black);
-  padding-top: 0;
+  /* padding-top: 0; */
+
+  padding: 2rem 2rem 0 2rem;
 }
+
+/* .section__padding {
+  padding: 4rem 2rem 0 !important;
+} */
+
 
 .app__footer-links {
   z-index: 10;
@@ -67,7 +74,7 @@
 .footer__copyright {
   z-index: 10;
 
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 
 /* --------- MEDIA QUERIES -------- */
@@ -100,9 +107,9 @@
 }
 
 @media screen and (max-width: 650px) {
-  .app__footer {
+  /* .app__footer {
     padding: 0 0 2rem 0;
-  }
+  } */
 }
 
 @media screen and (max-width: 350px) {

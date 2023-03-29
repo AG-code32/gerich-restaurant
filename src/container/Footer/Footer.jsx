@@ -7,7 +7,8 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <div className="app__footer section__padding">
+    // <div className="app__footer section__padding">
+    <div className="app__footer">
       <FooterOverlay />
       <Newsletter />
 
